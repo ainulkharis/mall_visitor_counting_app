@@ -13,8 +13,8 @@ import 'package:mall_visitor_counting/data/models/response/profile_response_mode
 import 'package:mall_visitor_counting/data/models/response/signup_response_model.dart';
 
 class AuthDatasource {
-  final baseUrl = 'http://194.31.53.102:21090';
-  final String apiKey = 'YWludWxraGFyaXMwNEBnbWFpbC5jb206a2hhcmlzMTIz';
+  final baseUrl = 'http://194.31.53.102:21090'; // URL VPS Bitvise SSH Client
+  final String apiKey = 'YWludWxraGFyaXMwNEBnbWFpbC5jb206a2hhcmlzMTIz'; // Encode youremail@gmail.com:yourpassword into Base64 string
 
   Future<SignupResponseModel> signup(SignupRequestModel signupRequestModel) async {
     final response = await http.post(

@@ -7,7 +7,7 @@ class UnrealtimeDetectionPage extends StatefulWidget {
 }
 
 class _UnrealtimeDetectionPageState extends State<UnrealtimeDetectionPage> {
-  final String url = 'http://192.168.139.47:5000/realtime';
+  final String url = 'http://192.168.29.47:5000/realtime'; // IP Address Local (cmd/ipconfig/IPv4 Address. . . . . . . . . . . : 192.168.29.47)
 
   @override
   Widget build(BuildContext context) {

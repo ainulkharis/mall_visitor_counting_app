@@ -6,8 +6,9 @@ class HistoryPage extends StatefulWidget {
   _HistoryPageViewState createState() => _HistoryPageViewState();
 }
 
+// STREAMLIT
 class _HistoryPageViewState extends State<HistoryPage> {
-  final String url = 'http://192.168.139.47:8501';
+  final String url = 'http://192.168.29.47:8501'; // IP Address Local (cmd/ipconfig/IPv4 Address. . . . . . . . . . . : 192.168.29.47)
 
   @override
   Widget build(BuildContext context) {
